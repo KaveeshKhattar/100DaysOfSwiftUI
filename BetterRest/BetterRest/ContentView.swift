@@ -73,7 +73,7 @@ struct ContentView: View {
                     Text("\(calculateBedtime)")
                 }
             }
-            .navigationBarTitle("Better Rest (Solo)")
+            .navigationBarTitle("Better Rest")
         }
         
         

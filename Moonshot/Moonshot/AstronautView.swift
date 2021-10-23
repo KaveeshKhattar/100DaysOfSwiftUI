@@ -34,8 +34,7 @@ struct AstronautView: View {
                 Image(astronaut.id)
                     .resizable()
                     .frame(maxWidth: geometry.size.width)
-                Text(astronaut.description)
-                    .padding()
+                
                 HStack{
                     ForEach(self.missions){ mission in
                         Image(mission.imageName)
@@ -44,6 +43,9 @@ struct AstronautView: View {
                             .frame(width: 60, height: 60)
                     }
                 }
+                
+                Text(astronaut.description)
+                    .padding()
             }
         }
         .navigationTitle(Text(astronaut.name))
