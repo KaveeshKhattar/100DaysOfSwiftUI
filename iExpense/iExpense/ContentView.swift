@@ -56,7 +56,7 @@ struct ContentView: View{
             return Color.green
         }
         
-        if(num < 100 && num > 10){
+        if(num < 100 && num >= 10){
             return Color.orange
         }
         
