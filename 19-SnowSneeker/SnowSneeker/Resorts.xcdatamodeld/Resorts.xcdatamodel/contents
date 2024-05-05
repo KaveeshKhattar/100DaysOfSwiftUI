@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="20086" systemVersion="21F79" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Resort" representedClassName="Resort" syncable="YES">
+        <attribute name="coordinates" optional="YES" attributeType="Transformable" customClassName="[Double]"/>
+        <attribute name="country" optional="YES" attributeType="String"/>
+        <attribute name="descriptionResort" optional="YES" attributeType="String"/>
+        <attribute name="elevation" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="facilities" optional="YES" attributeType="Transformable" customClassName="[String]"/>
+        <attribute name="id" optional="YES" attributeType="String"/>
+        <attribute name="imageCredit" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="price" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="runs" optional="YES" attributeType="String"/>
+        <attribute name="size" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="snowDepth" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="ResortModel" representedClassName="ResortModel" syncable="YES">
+        <attribute name="coordinates" optional="YES" attributeType="Transformable" customClassName="[Double]"/>
+        <attribute name="country" optional="YES" attributeType="String" valueTransformerName=""/>
+        <attribute name="descriptionResort" optional="YES" attributeType="String"/>
+        <attribute name="elevation" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="facilities" optional="YES" attributeType="Transformable" customClassName="[String]"/>
+        <attribute name="id" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="price" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="runs" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="size" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="snowDepth" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <elements>
+        <element name="Resort" positionX="-63" positionY="-18" width="128" height="209"/>
+        <element name="ResortModel" positionX="-54" positionY="81" width="128" height="194"/>
+    </elements>
+</model>
